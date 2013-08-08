@@ -32,7 +32,7 @@ export PS1
 
 #. ~/Projects/nvm/nvm.sh
 
-alias ls="ls -G"
+alias ls="ls -G --color"
 alias ll="ls -l"
 alias m="make > /dev/null"
 alias mm="make clean > /dev/null; make > /dev/null"
