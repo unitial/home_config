@@ -36,7 +36,7 @@ alias ls="ls -G --color"
 alias ll="ls -l"
 alias m="make > /dev/null"
 alias mm="make clean > /dev/null; make > /dev/null"
-alias grep="grep --exclude=tags"
+alias grep="grep --exclude=tags --color=auto"
 
 #export PATH=$PATH:/usr/texbin/
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
