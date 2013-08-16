@@ -41,6 +41,9 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
 Bundle 'CmdlineComplete' 
+Bundle 'Lokaltog/vim-powerline' 
+Bundle 'Tagbar' 
+Bundle 'kien/ctrlp.vim'
 
 " vim-scripts repos
 Bundle 'L9'
