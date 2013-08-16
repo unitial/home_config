@@ -21,7 +21,7 @@ noremap <C-l>  <C-W>l
 
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 nnoremap <silent> <F3> :Rgrep<CR>  
-nnoremap <silent> <F5> :copen
+nnoremap <F4> :copen<CR>
 
 filetype off                   " required!
 

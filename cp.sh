@@ -13,3 +13,4 @@ ln -s $PWD/.tmux.conf
 cp $PWD/.bash_profile ~/
 
 git submodule add https://github.com/gmarik/vundle.git .vim/bundle/vundle
+vim +BundleInstall +qall
