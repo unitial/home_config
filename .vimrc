@@ -25,6 +25,8 @@ nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 nnoremap <silent> <F3> :Rgrep<CR>  
 nnoremap <F4> :copen<CR>
 nmap <F8> :TagbarToggle<CR>
+map <F10> :set paste<CR>
+map <F11> :set nopaste<CR>
 
 " for powerline
 let g:Powerline_symbols = 'fancy'
