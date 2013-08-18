@@ -12,6 +12,7 @@ set tabstop=4
 set shiftwidth=4
 
 set background=dark
+set directory=~/tmp,/tmp  " move swp file to tmp
 
 let g:LookupFile_MinPatLength=2 "search at least 2 char
 
@@ -22,7 +23,7 @@ noremap <C-h>  <C-W>h
 noremap <C-l>  <C-W>l
 
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
-nnoremap <silent> <F3> :Rgrep<CR>  
+nnoremap <silent> <F3> :Rgrep --exclude=*tags<CR>
 nnoremap <F4> :copen<CR>
 nmap <F8> :TagbarToggle<CR>
 
@@ -33,7 +34,7 @@ set pastetoggle=<F11>
 " for powerline
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
-set fillchars+=stl:\ ,stlnc:\
+set fillchars+=stl:-,stlnc:-
 
 filetype off                   " required!
 
