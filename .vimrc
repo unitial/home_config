@@ -34,7 +34,7 @@ set pastetoggle=<F11>
 " for powerline
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
-set fillchars+=stl:-,stlnc:-
+set fillchars+=stl:-,stlnc:.
 
 filetype off                   " required!
 
