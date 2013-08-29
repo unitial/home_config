@@ -23,7 +23,7 @@ noremap <C-h>  <C-W>h
 noremap <C-l>  <C-W>l
 
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
-nnoremap <silent> <F3> :Rgrep --exclude=*tags<CR>
+nnoremap <silent> <F3> :Rgrep -I --exclude=*tags<CR>
 nnoremap <F4> :copen<CR>
 nmap <F8> :TagbarToggle<CR>
 
