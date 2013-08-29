@@ -1,16 +1,16 @@
 #!/bin/sh
 
-PWD=`pwd`
+CURR_DIR=`pwd`
 
 cd ~
 
-ln -s $PWD/.gitconfig 
-ln -s $PWD/.gitignore_global
-ln -s $PWD/.ssh
-ln -s $PWD/.vimrc
-ln -s $PWD/.tmux.conf
+ln -s $CURR_DIR/.gitconfig 
+ln -s $CURR_DIR/.gitignore_global
+ln -s $CURR_DIR/.ssh
+ln -s $CURR_DIR/.vimrc
+ln -s $CURR_DIR/.tmux.conf
 
-cp $PWD/.bash_profile ~/
+cp $CURR_DIR/.bash_profile ~/
 
-git submodule add https://github.com/gmarik/vundle.git .vim/bundle/vundle
+git clone https://github.com/gmarik/vundle.git .vim/bundle/vundle
 vim +BundleInstall +qall
