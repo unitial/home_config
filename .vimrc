@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 
 set cindent
 set incsearch
@@ -48,15 +48,18 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "
 " original repos on github
-Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-fugitive' 
 Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
 Bundle 'CmdlineComplete' 
 Bundle 'Lokaltog/vim-powerline' 
 Bundle 'Tagbar' 
 Bundle 'kien/ctrlp.vim'
+Bundle 'altercation/vim-colors-solarized'
+
+" HTML
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " vim-scripts repos
 Bundle 'L9'
@@ -77,4 +80,27 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
 
+" easymotion
+map f <Plug>(easymotion-prefix)
 
+" colorscheme
+" let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
+
+" NERD-Tree
+" Use the natural vim navigation keys hjkl to navigate the files.
+" Press o to open the file in a new buffer or open/close directory.
+" Press t to open the file in a new tab.
+" Press i to open the file in a new horizontal split.
+" Press s to open the file in a new vertical split.
+" Press p to go to parent directory.
+" Press r to refresh the current directory.
+map <F9> :NERDTreeToggle<CR>
+
+" ctrlp
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
