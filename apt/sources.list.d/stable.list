@@ -1,0 +1,5 @@
+deb ftp://ftp.sjtu.edu.cn/debian/ stable main contrib non-free
+deb-src ftp://ftp.sjtu.edu.cn/debian/ stable main contrib non-free
+
+deb http://ftp.us.debian.org/debian/ stable main contrib non-free
+deb-src http://ftp.us.debian.org/debian/ stable main contrib non-free
