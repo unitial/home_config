@@ -86,7 +86,7 @@ map f <Plug>(easymotion-prefix)
 " colorscheme
 " let g:solarized_termcolors=256
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 " NERD-Tree
 " Use the natural vim navigation keys hjkl to navigate the files.
