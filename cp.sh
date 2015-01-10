@@ -15,3 +15,5 @@ cp $CURR_DIR/.bash_profile ~/
 
 git clone https://github.com/gmarik/vundle.git .vim/bundle/vundle
 vim +BundleInstall +qall
+
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
