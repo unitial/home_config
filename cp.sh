@@ -2,6 +2,8 @@
 
 CURR_DIR=`pwd`
 
+sudo apt-get install vim zsh tmux wget curl git
+
 cd ~
 
 ln -s $CURR_DIR/.gitconfig 
